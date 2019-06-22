@@ -1,6 +1,6 @@
-# Paul Soriano's Portfolio
+# My Portfolio
 
-This is my professional portfolio. It uses AWS and ReactJS.
+This is my professional portfolio that highlights several projects I've worked on. It uses AWS and ReactJS. I started this as a result of watching A Cloud Guru's serverless courses.
 
 # Technologies Used
 
@@ -10,3 +10,4 @@ This is my professional portfolio. It uses AWS and ReactJS.
 - CSS
 - Font Awesome
 - Google Fonts
+- AWS
