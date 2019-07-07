@@ -15,4 +15,4 @@ artifacts:
     - PaulSoriano-Resume.pdf
     - styles/*
     - images/*
-    -dist/bundle.js
+    - dist/bundle.js
