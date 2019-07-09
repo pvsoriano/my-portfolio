@@ -4,14 +4,6 @@ import ExampleWork from './example-work';
 
 const myWork = [
     {
-        'title': "Work Example #2",
-        'image': {
-            'desc': "Example screenshot of a project involving code.",
-            'src': "images/example1.png",
-            'comment': ""
-        }
-    },
-    {
         'title': "Portfolio Boilerplate",
         'image': {
             'desc': "Serverless Portfolio",
@@ -20,11 +12,20 @@ const myWork = [
         }
     },
     {
+        'title': "Work Example #2",
+        'image': {
+            'desc': "Example screenshot of a project involving code.",
+            'src': "images/example1.png",
+            'comment': ""
+        }
+    },
+    {
         'title': "Work Example #3",
         'image': {
             'desc': "",
             'src': "images/example3.png",
-            'comment': ""
+            'comment': `Bengal cat” by roberto shabs is licensed under CC BY 2.0
+                        https://www.flickr.com/photos/37287295@N00/2540855181`
         }
     },
 ]
