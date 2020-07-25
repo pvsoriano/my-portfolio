@@ -46,6 +46,9 @@ class ExampleWork extends React.Component {
                 <ExampleWorkModal example={this.state.selectedExample}
                     open={this.state.modalOpen}/>
             </span>
+        )
+    }
+}
 
 
 class ExampleWorkBubble extends React.Component {
