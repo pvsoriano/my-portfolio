@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import ExampleWorkModal from './example-work-modal';
 
 class ExampleWork extends React.Component {
@@ -46,6 +47,21 @@ class ExampleWork extends React.Component {
                 <ExampleWorkModal example={this.state.selectedExample}
                     open={this.state.modalOpen}/>
             </span>
+=======
+
+class ExampleWork extends React.Component {
+    render() {
+        return (
+            <section className="section section--alignCentered section--description">
+
+                { this.props.work.map ( (example, idx) => {
+                    return (
+                        <ExampleWorkBubble example={example} key={idx}/>
+                    )
+                  })
+                }
+            </section>
+>>>>>>> 40f2500629012a693567b43575da270138a86126
         )
     }
 }
@@ -54,8 +70,12 @@ class ExampleWorkBubble extends React.Component {
     render() {
         let example = this.props.example;
         return (
+<<<<<<< HEAD
             <div className="section__exampleWrapper"
                 onClick={ (evt) => this.props.openModal(evt, example)}>
+=======
+            <div className="section__exampleWrapper">
+>>>>>>> 40f2500629012a693567b43575da270138a86126
                 <div className="section__example">
                     <img alt={ example.image.desc }
                         className="section__exampleImage"
